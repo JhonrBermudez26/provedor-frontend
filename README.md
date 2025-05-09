@@ -1,12 +1,35 @@
-# React + Vite
+# Provedor Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend del sistema **Provedor**, una aplicación web para la gestión de proveedores. Este repositorio contiene la interfaz de usuario desarrollada con [especificar framework: React, Angular, Vue, etc.].
 
-Currently, two official plugins are available:
+## 🚀 Requisitos Previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de clonar y ejecutar este proyecto, asegúrate de tener instalado:
 
-## Expanding the ESLint configuration
+- **Node.js** (versión recomendada: `>= 18.x`)
+  - Descargar desde: https://nodejs.org
+- **npm** o **Yarn**
+  - `npm` se instala con Node.js
+  - Yarn (opcional): `npm install --global yarn`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Instalación
+
+1. **Clonar el repositorio**
+
+```bash
+git clone https://github.com/0alexis/provedor-frontend.git
+```
+
+
+2. **Instalar dependencias**
+```
+Con npm:
+
+bash
+
+npm install
+```
+
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT.
