@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import DataTable from "../components/DataTable";
+import "../iteraciones.css";
 
 const Asignacion = () => {
   const [data, setData] = useState([]);

@@ -3,12 +3,75 @@
 @tailwind utilities;
 
 /* Estilos globales personalizados */
-body {
-  margin: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+/* src/App.css */
+
+/* src/App.css */
+
+/* src/App.css */
+
+*{
+  padding: 0;
+}
+.dashboard-container {
+  display: flex;
+  height: 90vh;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #1c2431;
+  color: white;
+  padding: 20px 10px;
+  height: 93.5vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+
+  box-shadow: 0 0 50px rgba(177, 221, 73, 0.2);
+}
+
+
+.sidebar h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #ffa500;
+  color: #1e2a38;
+}
+
+/* Contenido */
+.main-content {
+  flex: 1;
+  background-color: #eef1f5;
+  padding: 20px;
+  overflow-y: auto;
 }
